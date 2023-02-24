@@ -1,0 +1,53 @@
+
+:root{
+--Akzent-yellow:#F3C653;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
+    margin: 0 0;
+    padding: 0 0;
+}
+ul{
+    list-style: none;
+}
+a{
+ text-decoration: none;
+ color: inherit;
+}
+.header-container{
+    width: 310px;
+}
+.header{
+    position: fixed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header-contacts__phone{
+    display: none;
+}
+.icon{
+    fill: currentColor;
+}
+.icon__phone{
+    color: var(--Akzent-yellow);
+}
+.header-contacts__item{
+
+}
+.navigation__item{
+
+}
